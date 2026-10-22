@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#312e81">
+<title>Révisions Bachelor GRH — RNCP 40863</title>
+<link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#" data-page="home"><span class="brand-mark">RH</span><span><b>Révisions GRH</b><small>Bachelor · RNCP 40863</small></span></a>
+  <div class="search-wrap"><span>⌕</span><input id="globalSearch" type="search" placeholder="Rechercher une notion, une UE, la paie, la GEPP…" autocomplete="off"><button id="clearSearch" aria-label="Effacer">×</button><div id="searchResults" class="search-results hidden"></div></div>
+  <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">☰</button>
+</header>
+<div class="app-layout">
+  <aside class="sidebar" id="sidebar">
+    <div class="side-label">ESPACE DE TRAVAIL</div>
+    <button class="nav-link active" data-page="home"><span>⌂</span> Tableau de bord</button>
+    <button class="nav-link" data-page="certification"><span>◈</span> Certification RNCP <em>4 blocs</em></button>
+    <button class="nav-link" data-page="diploma"><span>▤</span> Diplôme école <em>6 UE</em></button>
+    <button class="nav-link" data-page="essentials"><span>＋</span> Mes points essentiels</button>
+    <button class="nav-link" data-page="sources"><span>↗</span> Sources avec les liens</button>
+    <div class="sidebar-bottom"><div class="mini-progress"><div class="mini-progress-top"><span>Ma progression</span><b id="sideProgress">0%</b></div><div class="progress-track"><div id="sideProgressBar" class="progress-fill"></div></div></div><small>Les données restent sur cet appareil.</small></div>
+  </aside>
+  <main id="main" class="main-content"></main>
+</div>
+<button class="print-fixed" id="printButton">⎙ <span>Imprimer mes fiches</span></button>
+<div id="toast" class="toast" role="status"></div>
+<script src="data.js?v=4"></script><script src="script.js?v=4"></script>
+</body></html>
